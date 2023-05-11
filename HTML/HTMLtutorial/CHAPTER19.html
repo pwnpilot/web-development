@@ -1,0 +1,102 @@
+<!-- HTML FORM  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 
+
+        <form action="url" method="get|posrt" target="_self" enctype=""> 
+     -->
+    <!-- HTML FORM CONTROL -->
+    <h2 id="fh2"> html form control</h2>
+    <p>there are different type of form control that you can use to collect data using html form </p>
+    <ol type="i">
+        <li>text input controll</li>
+        <li>chech boxes</li>
+        <li>radio button</li>
+        <li>select box control</li>
+        <li>file select boxes</li>
+        <li>hidden control</li>
+        <li>clickable buttons</li>
+        <li>submit and reset button</li>
+    </ol>
+    <br>
+
+
+    <div id="c1">
+        <h2 class="text">text input control</h2><br>
+        <h3 class="first">SINGLE LINE TEXT INPUT CONTROL</h3><br>
+        <form>
+            FIRST NAME:<input type="text" name="first_name" value="icsoldiers" size="40" maxlength="50"><br>
+
+            LAST NAME:<input type="text" name="last_name" value="github" size="40" maxlength="50">
+        </form><br>
+        <h3 class="first">PASSWORD INPUT CONTROL</h3><br>
+        <form>
+            USER NAME : <input type="text" name="user_id" size="40" maxlength="50"><br>
+            PASSWORD : <input type="text" name="password" size="40" maxlength="50">
+        </form><br>
+        <h3 class="first">MULTI LINE TEXT AREA CONTROL</h3>
+        <form>
+            descryption:
+            <textarea rows="5" cols="50" name="descryption">enter descryption here:</textarea>
+        </form>
+    </div><br>
+    <div class="c2">
+        <h2 class="second">CHECKBOX CONTROL</h2>
+        <FORM>
+            choose any one subject:
+            MATHS:<input type="checkbox" name="maths" value="on">
+            PHYSICS:<input type="checkbox" name="physics" value="on" checked>
+        </FORM>
+    </div><br>
+    <div class="c3">
+        <h2>RADIO BUTTONS</h2>
+        <form>
+            select any language:
+            HINDI:<input type="RADIO" NAME="lang" value="HINDI" checked>
+            ENGLISH:<input type="RADIO" NAME="lang" value="ENGLISH">
+            MARATHI:<input type="RADIO" NAME="lang" value="MARATHI"> </form>
+    </div><br>
+
+    <div class="c4">
+        <h2>SELECT BOX CONTROL</h2>
+        <FORM>
+            <CENTER><select name="dropdown" id="select" size="0"></CENTER>
+            <option value="MATH" selected> MATHS</option>
+            <option value="PHYSICS">PHYSICS</option>
+            </select>
+        </FORM>
+    </div>
+
+    <h3>file upload box </h3>
+    <form><input type="file" name="fileupload" accept="image/*"></form>
+
+    <h2>button controls in html</h2>
+    <form>
+        <input type="submit" name="submit" value="submit"><br>
+        <input type="reset" name="reset" value="reset"><br>
+        <input type="button" name="ok" value="ok"><br>
+        <input type="image" name="imagebutton" source="/icsoldiers.jpg"><br>
+    </form><br>
+
+    <form>
+        <input type="hidden" name="pagename" value="10"><br>
+        <input type="submit" name="submit" value="submit"><br>
+        <input type="reset" name="reset" value="reset">
+    </form>
+
+
+
+
+</body>
+
+</html>

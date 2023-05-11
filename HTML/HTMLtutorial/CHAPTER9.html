@@ -1,0 +1,208 @@
+<!-- HTML TABLES -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <p>
+    the table in html are created by using table tag in which the
+    <quote>tr</quote> and <quote>td</quote> are used to create row and columns
+  </p>
+
+  <table border="1">
+    <tr>
+      <th>row1 column1</th>
+      <td>row1 column2</td>
+    </tr>
+    <tr>
+      <td>row2 column1</td>
+      <td>row2 column2</td>
+    </tr>
+  </table>
+  <hr>
+
+  <!-- TABLE HEADING -->
+  <!-- CAN BE DEFINED USING TH -->
+  <table border="1">
+    <thead>
+      <tr>
+        <th>number</th>
+        <th>course</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>PYTHON</td>
+      </tr>
+    </tbody>
+    <tr>
+      <td>2</td>
+      <td>HTML</td </tr>
+    <tr>
+      <td>3</td>
+      <td>javscript</td>
+    </tr>
+  </table>
+  <hr>
+
+  <h2>CELLPADDING AND CELLSPACING </h2>
+
+  <!-- CELLPADDING AND CELLSPACING -->
+  <table border="1" cellpadding="10" cellspacing="5">
+    <tr>
+      <th>name</th>
+      <th>role</th>
+    </tr>
+    <td>icsoldiers</td>
+    <td>hacking services</td>
+    </tr>
+    <tr>
+      <td>github</td>
+      <td>version control</td>
+    </tr>
+
+  </table>
+  <hr>
+  <h2>colspan and rowspan</h2>
+  <!-- COLSPAN AND ROWSPAN -->
+  <table border="10">
+    <tr>
+      <th>column1</th>
+      <th>column2</th>
+      <th>column3</th>
+    </tr>
+    <tr>
+      <td rowspan="2">row1cell1</td>
+      <td>row1 cell2</td>
+      <td>row1 cell3</td>
+    <tr>
+      <td>row2 cell2</td>
+      <td>row2 cell3</td>
+    </tr>
+    </tr>
+    <tr>
+      <td colspan=3>row3 cell3</td>
+    </tr>
+  </table>
+  <hr>
+
+  <h2>TABLE BACKGROUNDS</h2>
+  <!-- TABLE BACkGROUND -->
+  <table border="5" bgcolor="yellow" bordercolor="red">
+    <th>column1</th>
+    <th>column2</th>
+    <th>column3</th>
+
+    <tr>
+      <td rowspan="2">row1 cell1</td>
+      <td>row1 cell2</td>
+      <td>row1 cell3</td>
+    </tr>
+    <tr>
+      <td>row2 cell2</td>
+      <td>row2 cell3</td>
+    </tr>
+  </table>
+
+
+  <!-- TABLE HEIGHT AND WIDTH -->
+  <h2>TABLE GEIGHT AND WIDTH</h2>
+  <table border="5" bgcolor="yellow" bordercolor="red" height="40%" width="60%" align="center">
+    <tr>
+      <th>column1</th>
+      <th>column2</th>
+      <th>column3</th>
+    <tr>
+
+    <tr>
+      <td rowspan="2">row1 cell1</td>
+      <td>row1 cell2</td>
+      <td>row1 cell3</td>
+    </tr>
+    <tr>
+      <td>row2 cell2</td>
+      <td>row2 cell3</td>
+    </tr>
+  </table>
+
+  <!-- TABLE CAPTION  -->
+  <H2>this is the table caption examples</H2>
+  <table border="5" bgcolor="yellow" bordercolor="red" height="40%" width="60%" align="center">
+    <caption>this the html tutorial</caption>
+    <tr>
+      <th>column1</th>
+      <th>column2</th>
+      <th>column3</th>
+    </tr>
+
+    <tr>
+      <td rowspan="2">row1 cell1</td>
+      <td>row1 cell2</td>
+      <td>row1 cell3</td>
+    </tr>
+    <tr>
+      <td>row2 cell2</td>
+      <td>row2 cell3</td>
+    </tr>
+  </table>
+
+
+
+  <h2>TABLE HEADER ,BODY AND FOOTER</h2>
+  <table border="2">
+    <thead>
+      <tr>
+        <td colspan="4">this is the header of this html page</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">this is the footer</td>
+      </tr>
+    </tfoot>
+  </table>
+
+
+
+  <h2>NESTED TABLES</h2>
+
+  <!-- NESTED TABLES -->
+  <table border="1" width="100%">
+    <tr>
+      <td>
+        <table border="1" width="100%">
+          <tr>
+            <th>name </th>
+            <th>salary</th>
+          </tr>
+          <tr>
+            <td>name1</td>
+            <td>5000</td>
+          </tr>
+          <tr>
+            <td>name2</td>
+            <td>5005s</td>
+          </tr>
+      </td>
+    </tr>
+  </table>
+
+  </table>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+div{
+    color: blueviolet;
+    background-color: rgb(129, 51, 51);
+}
+p{
+    color: rgb(203, 218, 38);
+    background-color: rgb(134, 18, 82);
+}
+h4{
+    background-color: rgb(199, 9, 9);
+    color: cornsilk;
+}
+span#red{
+    color: darkred;
+    background-color: white;
+}
+span#green{
+    background-color: #fff;
+    color: green;
+}
+p#new{
+    background-color: rgb(124, 78, 170);
+}
+h2#font{
+    color:chocolate;
+    background-color: rgb(127, 164, 180);
+}
+h2#face{
+    color:darkmagenta;
+    background-color: rgb(83, 160, 140);
+}
+h3#color{
+    COLOR:black;
+    background-color: yellow;
+}
+h2#fh2{
+    color: blueviolet;
+    background-color: rgb(121, 177, 122);
+}
+h2.text{
+    color: rgb(106, 37, 52);
+    background-color: rgba(141, 163, 42, 0.542);
+}
+h3.first{
+    color: darkred;
+    background-color: rgb(161, 145, 19);
+}
+div#c1{
+    background-color:aqua;
+}
+div.c2{
+    background-color: rgba(244, 248, 26, 0.768);
+}
+div.c3{
+    background: border-box;
+    background-color: rgb(194, 105, 136);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
