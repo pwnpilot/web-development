@@ -4,11 +4,15 @@ selector
 property
 value
  
+p { color: blue}
+here p is selector
+color is property
+blue is value
 
 there is three way to add css to html
 
 1. inline css:  css is added to the element directoly using style attribute
-2. internal css: css is kept inside the dead tag in <style> tags
+2. internal css: css is kept inside the head tag in <style> tags
 3.external css: css is kept separately inside a .css style sheet and include 
 
 
